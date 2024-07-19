@@ -43,7 +43,7 @@ export default function BaseLayout() {
           <Routes>
             <Route exact path={"/"} element={<Home />} />
             <Route exact path={"/about"} element={<About />} />
-            {/* <Route exact path={"/portfolio"} element={<Portfolio />} /> */}
+            <Route exact path={"/portfolio"} element={<Portfolio />} />
           </Routes>
         </Grid>
         <Grid item>
@@ -58,7 +58,7 @@ export default function BaseLayout() {
           >
             <p>
               Built with &hearts; by{" "}
-              <a href={"https://Atishay-tripathi.vercel.app"}>Atishay</a>
+              <a href={"https://atishay-tripathi.vercel.app"}>Atishay</a>
             </p>
             <p>&copy; 2024</p>
           </Box>

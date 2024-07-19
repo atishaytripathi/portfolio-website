@@ -46,11 +46,11 @@ export const info = {
     },
   ],
   socials: [
-    // {
-    //   link: "https://facebook.com",
-    //   icon: "fa fa-facebook",
-    //   label: "facebook",
-    // },
+    {
+      link: "https://facebook.com",
+      icon: "fa fa-facebook",
+      label: "facebook",
+    },
     {
       link: "https://instagram.com/atishaytripathi/",
       icon: "fa fa-instagram",
@@ -70,15 +70,16 @@ export const info = {
   bio: "hello! i'm atishay. i am a web developer and i love building beautiful digital experiences",
   skills: {
     proficientWith: [
-      "javascript",
-      "react",
       "git",
       "github",
       "html5",
       "css3",
-      "figma",
+      "Java",
+      "C",
+      "C++",
+      "python"
     ],
-    exposedTo: ["nodejs", "python", "Java", "C", "C++"],
+    exposedTo: ["javascript", "react", "nodejs", "figma"],
   },
   hobbies: [
     {
@@ -116,7 +117,7 @@ export const info = {
     },
     {
       title: "Portfolio",
-      live: "",
+      live: "https://atishay-tripathi.vercel.app/",
       source: "https://github.com/atishaytripathi/portfolio-website",
       image: mock4,
     },
